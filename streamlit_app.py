@@ -32,7 +32,7 @@ try:
    if fruit == "apple":
     streamlit.write("Apples are a popular fruit.")
     streamlit.write("They are high in fiber and vitamin C.")
-elif fruit == "banana":
+
     streamlit.write("Bananas are a tasty fruit.")
     streamlit.write("They are a good source of potassium.")
 else:
