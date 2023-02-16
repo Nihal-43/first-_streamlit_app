@@ -43,3 +43,7 @@ my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
 my_data_rows = my_cur.fetchall()
 streamlit.header("Hello from Snowflake:")
 streamlit.dataframe(my_data_rows)
+
+#Allow the end user to add a fruit to the list
+add_my_fruit = streamlit.text_input('What fruit would you like information about?')
+streamlit.write('The user entered ', fruit_choice)
