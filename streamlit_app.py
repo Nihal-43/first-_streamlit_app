@@ -44,5 +44,5 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("Hello from Snowflake:")
 streamlit.dataframe(my_data_rows)
 
-add_my_fruit = st.text_input("Enter some text:", "")
-   streamlit.write('What fruit would you like information about?','Kiwi')
+add_my_fruit = st.text_input("Enter some text:", )
+   streamlit.write('What fruit would you like information about?')
