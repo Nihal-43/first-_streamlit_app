@@ -35,7 +35,6 @@ try:
 
     streamlit.write("Bananas are a tasty fruit.")
     streamlit.write("They are a good source of potassium.")
-else:
     streamlit.error("Please select a fruit to get information.")
 
 else:
