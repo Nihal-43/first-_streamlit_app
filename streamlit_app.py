@@ -46,7 +46,7 @@ else:
 
 
 #dont run anything 
-#streamlit.stop()
+streamlit.stop()
 
 #import snowflake.connector
 
